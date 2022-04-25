@@ -1,0 +1,33 @@
+{
+  "name": "nodedevwithtypescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "nodemon src/app.ts",
+    "lint": "eslint . --ext .ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JZO001/NodeDevWithTypescript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JZO001/NodeDevWithTypescript/issues"
+  },
+  "homepage": "https://github.com/JZO001/NodeDevWithTypescript#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@typescript-eslint/eslint-plugin": "^5.21.0",
+    "@typescript-eslint/parser": "^5.21.0",
+    "eslint": "^8.14.0",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "express": "^4.18.0"
+  }
+}
